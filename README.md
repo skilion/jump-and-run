@@ -10,8 +10,10 @@ Old game made in high school
 
 ## Compilation on Linux
 
-1. `cd External; cmake; cd ..`
-2. `cd Source; cmake;`
+1. `cd Intermediate`
+2. `cmake ../External -DCMAKE_BUILD_TYPE=Release; make`
+3. `rm CMakeCache.txt`
+4. `cmake ../Source -DCMAKE_BUILD_TYPE=Release; make`
 
 ## Music used:
 

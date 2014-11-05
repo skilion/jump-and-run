@@ -1,6 +1,2 @@
-Debug/*.idb
-Debug/*.lib
-Debug/*.pdb
-Release/*.idb
-Release/*.lib
-Release/*.pdb
+Debug/*
+Release/*
