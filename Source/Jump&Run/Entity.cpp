@@ -56,7 +56,7 @@ const Vec2i &Entity::getSize() const
 //=============================================================================
 Rect Entity::getRect() const
 {
-	return Rect(position, position + size);
+	return Rect(position + Vec2i(2, 2), position + size - Vec2i(4, 4));
 }
 
 //=============================================================================
