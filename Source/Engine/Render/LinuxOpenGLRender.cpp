@@ -10,7 +10,7 @@
 using namespace myengine;
 
 
-char * MAIN_WND_TITLE = "MyEngine";
+const char *MAIN_WND_TITLE = "";
 int LinuxOpenGLRender::errorLevel = 0;
 
 
@@ -140,7 +140,7 @@ bool LinuxOpenGLRender::createWindow()
 
 	//Window title
 	XTextProperty title;
-	XmbTextListToTextProperty(display, &MAIN_WND_TITLE, 1, XStringStyle, &title);
+	XmbTextListToTextProperty(display, (char**) &MAIN_WND_TITLE, 1, XStringStyle, &title);
 
 	//Ensure the window manager will respect windows position and size
 	XSizeHints *normalHints = XAllocSizeHints();

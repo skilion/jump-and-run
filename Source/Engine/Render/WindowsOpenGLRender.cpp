@@ -16,7 +16,7 @@ using namespace myengine;
 
 //Constants for the main window
 const char * const MAIN_WND_CLASS = "MyEngineClass";
-const char * const MAIN_WND_TITLE = "MyEngine";
+const char * const MAIN_WND_TITLE = "";
 
 
 //=============================================================================
