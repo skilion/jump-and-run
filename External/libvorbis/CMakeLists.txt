@@ -1,0 +1,6 @@
+project(vorbis C)
+include_directories(../libogg/include)
+include_directories(include)
+include_directories(lib)
+file(GLOB_RECURSE Sources "*.c")
+add_library(vorbis STATIC ${Sources})

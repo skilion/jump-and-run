@@ -1,0 +1,47 @@
+project(freetype2 C)
+add_definitions(-DFT2_BUILD_LIBRARY)
+include_directories(include)
+set(Sources
+	autofit/autofit.c
+	base/ftapi.c
+	base/ftbase.c
+	base/ftbbox.c
+	base/ftbdf.c
+	base/ftbitmap.c
+	base/ftcid.c
+	base/ftdebug.c
+	base/ftfstype.c
+	base/ftgasp.c
+	base/ftglyph.c
+	base/ftgxval.c
+	base/ftinit.c
+	base/ftlcdfil.c
+	base/ftmm.c
+	base/ftpatent.c
+	base/ftpfr.c
+	base/ftstroke.c
+	base/ftsynth.c
+	base/ftsystem.c
+	base/fttype1.c
+	base/ftwinfnt.c
+	base/ftxf86.c
+	bdf/bdf.c
+	cache/ftcache.c
+	cff/cff.c
+	cid/type1cid.c
+	gzip/ftgzip.c
+	lzw/ftlzw.c
+	pcf/pcf.c
+	pfr/pfr.c
+	psaux/psaux.c
+	pshinter/pshinter.c
+	psnames/psnames.c
+	raster/raster.c
+	sfnt/sfnt.c
+	smooth/smooth.c
+	truetype/truetype.c
+	type1/type1.c
+	type42/type42.c
+	winfonts/winfnt.c
+)
+add_library(freetype2 STATIC ${Sources})

@@ -1,0 +1,7 @@
+ScreenWidth = 640
+ScreenHeight = 480
+ScreenColors = 32
+ScreenDepth = 24
+Fullscreen = 0
+Vsync = 1
+Multisamples = 0

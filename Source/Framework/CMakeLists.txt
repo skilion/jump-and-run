@@ -1,0 +1,6 @@
+project(Framework CXX)
+include_directories(.)
+file(GLOB_RECURSE Sources "*.cpp")
+file(GLOB_RECURSE WindowsSources "Windows*.cpp")
+list(REMOVE_ITEM Sources ${WindowsSources})
+add_library(framework STATIC ${Sources})

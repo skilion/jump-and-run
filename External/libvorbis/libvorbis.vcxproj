@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\vorbis\codec.h" />
+    <ClInclude Include="include\vorbis\vorbisenc.h" />
+    <ClInclude Include="lib\backends.h" />
+    <ClInclude Include="lib\bitrate.h" />
+    <ClInclude Include="lib\codebook.h" />
+    <ClInclude Include="lib\codec_internal.h" />
+    <ClInclude Include="lib\envelope.h" />
+    <ClInclude Include="lib\highlevel.h" />
+    <ClInclude Include="lib\lookup.h" />
+    <ClInclude Include="lib\lookup_data.h" />
+    <ClInclude Include="lib\lpc.h" />
+    <ClInclude Include="lib\lsp.h" />
+    <ClInclude Include="lib\masking.h" />
+    <ClInclude Include="lib\mdct.h" />
+    <ClInclude Include="lib\misc.h" />
+    <ClInclude Include="lib\os.h" />
+    <ClInclude Include="lib\psy.h" />
+    <ClInclude Include="lib\registry.h" />
+    <ClInclude Include="lib\scales.h" />
+    <ClInclude Include="lib\smallft.h" />
+    <ClInclude Include="lib\window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\analysis.c" />
+    <ClCompile Include="lib\barkmel.c" />
+    <ClCompile Include="lib\bitrate.c" />
+    <ClCompile Include="lib\block.c" />
+    <ClCompile Include="lib\codebook.c" />
+    <ClCompile Include="lib\envelope.c" />
+    <ClCompile Include="lib\floor0.c" />
+    <ClCompile Include="lib\floor1.c" />
+    <ClCompile Include="lib\info.c" />
+    <ClCompile Include="lib\lookup.c" />
+    <ClCompile Include="lib\lpc.c" />
+    <ClCompile Include="lib\lsp.c" />
+    <ClCompile Include="lib\mapping0.c" />
+    <ClCompile Include="lib\mdct.c" />
+    <ClCompile Include="lib\psy.c" />
+    <ClCompile Include="lib\registry.c" />
+    <ClCompile Include="lib\res0.c" />
+    <ClCompile Include="lib\sharedbook.c" />
+    <ClCompile Include="lib\smallft.c" />
+    <ClCompile Include="lib\synthesis.c" />
+    <ClCompile Include="lib\vorbisenc.c" />
+    <ClCompile Include="lib\window.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EE1526FB-69C7-4287-BF09-8E9F402DC761}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libvorbis</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>$(ProjectName)</TargetName>
+    <OutDir>..\..\Libraries\$(Configuration)\</OutDir>
+    <IntDir>..\..\Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>$(ProjectName)</TargetName>
+    <OutDir>..\..\Libraries\$(Configuration)\</OutDir>
+    <IntDir>..\..\Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBVORBIS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include\;$(SolutionDir)\libogg\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)\$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;LIBVORBIS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include\;$(SolutionDir)\libogg\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>false</ExceptionHandling>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ProgramDataBaseFileName>$(OutDir)\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

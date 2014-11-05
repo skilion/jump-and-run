@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files\Render">
+      <UniqueIdentifier>{663ac011-0ac6-40e7-bb0a-64bb42345934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Render">
+      <UniqueIdentifier>{7b08cc54-3833-48e1-ac4d-d619b3f99cae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\World">
+      <UniqueIdentifier>{d4ca01fe-5f46-489e-90bc-44e062f0d3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\World">
+      <UniqueIdentifier>{f821bc21-7c4a-40bf-9850-55b919ec39c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\System">
+      <UniqueIdentifier>{a25ccce7-e53a-4350-bca5-cc530fc493f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\System">
+      <UniqueIdentifier>{02166a30-5c6f-4147-add3-c68eee11b416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\EventSystem">
+      <UniqueIdentifier>{aa78a14e-3b6d-48b3-a690-032adfc7979c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\EventSystem">
+      <UniqueIdentifier>{d747a3f3-7455-445d-889d-368a977e13dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Thread">
+      <UniqueIdentifier>{0098e478-ff76-413e-908d-6f98fe1b9641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Thread">
+      <UniqueIdentifier>{cc442764-c9e9-421b-b91b-29e8da89e823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Log">
+      <UniqueIdentifier>{beed67e9-368b-4dfc-90f9-73fbdcb50090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Log">
+      <UniqueIdentifier>{3aab996c-65c2-409b-8934-c2a91fa5d9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Config">
+      <UniqueIdentifier>{9108731b-60d8-4ac4-8e9d-ce515eedafcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Config">
+      <UniqueIdentifier>{cc6b7620-495b-4577-b107-10b7591b89ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Audio">
+      <UniqueIdentifier>{f2e3603e-47bd-4204-9899-ea2d33729eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Audio">
+      <UniqueIdentifier>{4feca4cf-7594-47ed-9376-73349dad7b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Network">
+      <UniqueIdentifier>{dfb2169b-2b57-4587-9840-aff1de846a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Network">
+      <UniqueIdentifier>{263f82e7-7dde-4e9a-b8a0-efdf88b10d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Gui">
+      <UniqueIdentifier>{ca97a6a0-98d1-455a-ab65-cd29fa4a3b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Gui">
+      <UniqueIdentifier>{7c0ce0fe-6490-44a0-a22a-e7cf8d07bb8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Camera.cpp">
+      <Filter>Source files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Font.cpp">
+      <Filter>Source files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Image.cpp">
+      <Filter>Source files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\LinuxOpenGLRender.cpp">
+      <Filter>Source files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\OpenGLRender.cpp">
+      <Filter>Source files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\OpenGLTexture.cpp">
+      <Filter>Source files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Texture.cpp">
+      <Filter>Source files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\WindowsOpenGLRender.cpp">
+      <Filter>Source files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Render.cpp">
+      <Filter>Source files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="World\WorldNode.cpp">
+      <Filter>Source files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="System\LinuxSystem.cpp">
+      <Filter>Source files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\WindowsSystem.cpp">
+      <Filter>Source files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\WindowsWndProc.cpp">
+      <Filter>Source files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem\CharEvent.cpp">
+      <Filter>Source files\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem\KeyEvent.cpp">
+      <Filter>Source files\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem\MouseEvent.cpp">
+      <Filter>Source files\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\LinuxThread.cpp">
+      <Filter>Source files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\Thread.cpp">
+      <Filter>Source files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\WindowsThread.cpp">
+      <Filter>Source files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\WindowsLog.cpp">
+      <Filter>Source files\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\StandardLog.cpp">
+      <Filter>Source files\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\Config.cpp">
+      <Filter>Source files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\OpenALAudio.cpp">
+      <Filter>Source files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\OpenALSound.cpp">
+      <Filter>Source files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Stream.cpp">
+      <Filter>Source files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioStream.cpp">
+      <Filter>Source files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Sound.cpp">
+      <Filter>Source files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\VorbisAudioStream.cpp">
+      <Filter>Source files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\WaveAudioStream.cpp">
+      <Filter>Source files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket.cpp">
+      <Filter>Source files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\WindowsClientSocket.cpp">
+      <Filter>Source files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Http.cpp">
+      <Filter>Source files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FreetypeFont.cpp">
+      <Filter>Source files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\MsgEvent.cpp">
+      <Filter>Source files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Container.cpp">
+      <Filter>Source files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Object.cpp">
+      <Filter>Source files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Window.cpp">
+      <Filter>Source files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Button.cpp">
+      <Filter>Source files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Label.cpp">
+      <Filter>Source files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\MainContainer.cpp">
+      <Filter>Source files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Gui.cpp">
+      <Filter>Source files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Color.cpp">
+      <Filter>Source files\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Camera.h">
+      <Filter>Header files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Color.h">
+      <Filter>Header files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Font.h">
+      <Filter>Header files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Image.h">
+      <Filter>Header files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\LinuxOpenGLRender.h">
+      <Filter>Header files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\OpenGLHeader.h">
+      <Filter>Header files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\OpenGLRender.h">
+      <Filter>Header files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\OpenGLTexture.h">
+      <Filter>Header files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Render.h">
+      <Filter>Header files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Texture.h">
+      <Filter>Header files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\WindowsOpenGLRender.h">
+      <Filter>Header files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="World\WorldNode.h">
+      <Filter>Header files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="System\LinuxSystem.h">
+      <Filter>Header files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\WindowsHeader.h">
+      <Filter>Header files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\WindowsSystem.h">
+      <Filter>Header files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\WindowsWndProc.h">
+      <Filter>Header files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\CharEvent.h">
+      <Filter>Header files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\KeyEvent.h">
+      <Filter>Header files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\MouseEvent.h">
+      <Filter>Header files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\LinuxThread.h">
+      <Filter>Header files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\Thread.h">
+      <Filter>Header files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\WindowsThread.h">
+      <Filter>Header files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\WindowsLog.h">
+      <Filter>Header files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\StandardLog.h">
+      <Filter>Header files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\Config.h">
+      <Filter>Header files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenALAudio.h">
+      <Filter>Header files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\OpenALSound.h">
+      <Filter>Header files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Stream.h">
+      <Filter>Header files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioStream.h">
+      <Filter>Header files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Sound.h">
+      <Filter>Header files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\VorbisAudioStream.h">
+      <Filter>Header files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\WaveAudioStream.h">
+      <Filter>Header files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\Receiver.h">
+      <Filter>Header files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\Sender.h">
+      <Filter>Header files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ListenSocket.h">
+      <Filter>Header files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket.h">
+      <Filter>Header files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\WindowsClientSocket.h">
+      <Filter>Header files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Http.h">
+      <Filter>Header files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FreetypeFont.h">
+      <Filter>Header files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\MsgEvent.h">
+      <Filter>Header files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Container.h">
+      <Filter>Header files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Object.h">
+      <Filter>Header files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Window.h">
+      <Filter>Header files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Button.h">
+      <Filter>Header files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Label.h">
+      <Filter>Header files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\MainContainer.h">
+      <Filter>Header files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Gui.h">
+      <Filter>Header files\Gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

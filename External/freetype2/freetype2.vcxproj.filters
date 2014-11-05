@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="autofit\autofit.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftapi.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftbase.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftbbox.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftbdf.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftbitmap.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftcid.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftdebug.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftfstype.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftgasp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftglyph.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftgxval.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftinit.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftlcdfil.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftmm.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftpatent.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftpfr.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftstroke.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftsynth.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftsystem.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\fttype1.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftwinfnt.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ftxf86.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="bdf\bdf.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="cache\ftcache.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="cff\cff.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="cid\type1cid.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="gzip\ftgzip.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lzw\ftlzw.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="pcf\pcf.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="pfr\pfr.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="psaux\psaux.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="pshinter\pshinter.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="psnames\psnames.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="raster\raster.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="sfnt\sfnt.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="smooth\smooth.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="truetype\truetype.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="type1\type1.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="type42\type42.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="winfonts\winfnt.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

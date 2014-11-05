@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="Audio\AudioStream.cpp" />
+    <ClCompile Include="Audio\OpenALAudio.cpp" />
+    <ClCompile Include="Audio\OpenALSound.cpp" />
+    <ClCompile Include="Audio\Sound.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Audio\Stream.cpp" />
+    <ClCompile Include="Audio\VorbisAudioStream.cpp" />
+    <ClCompile Include="Audio\WaveAudioStream.cpp" />
+    <ClCompile Include="Config\Config.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="EventSystem\CharEvent.cpp" />
+    <ClCompile Include="EventSystem\KeyEvent.cpp" />
+    <ClCompile Include="EventSystem\MouseEvent.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Gui\Button.cpp" />
+    <ClCompile Include="Gui\Container.cpp" />
+    <ClCompile Include="Gui\Gui.cpp" />
+    <ClCompile Include="Gui\Label.cpp" />
+    <ClCompile Include="Gui\MainContainer.cpp" />
+    <ClCompile Include="Gui\MsgEvent.cpp" />
+    <ClCompile Include="Gui\Object.cpp" />
+    <ClCompile Include="Gui\Window.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Log\StandardLog.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Log\WindowsLog.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Network\ClientSocket.cpp" />
+    <ClCompile Include="Network\Http.cpp" />
+    <ClCompile Include="Network\WindowsClientSocket.cpp" />
+    <ClCompile Include="Render\Camera.cpp" />
+    <ClCompile Include="Render\Color.cpp" />
+    <ClCompile Include="Render\Font.cpp" />
+    <ClCompile Include="Render\FreetypeFont.cpp" />
+    <ClCompile Include="Render\Image.cpp" />
+    <ClCompile Include="Render\LinuxOpenGLRender.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Render\OpenGLRender.cpp" />
+    <ClCompile Include="Render\OpenGLTexture.cpp" />
+    <ClCompile Include="Render\Render.cpp" />
+    <ClCompile Include="Render\Texture.cpp" />
+    <ClCompile Include="Render\WindowsOpenGLRender.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="System\LinuxSystem.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="System\WindowsSystem.cpp" />
+    <ClCompile Include="System\WindowsWndProc.cpp" />
+    <ClCompile Include="Thread\LinuxThread.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Thread\Thread.cpp" />
+    <ClCompile Include="Thread\WindowsThread.cpp" />
+    <ClCompile Include="World\WorldNode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="Audio\AudioStream.h" />
+    <ClInclude Include="Audio\OpenALAudio.h" />
+    <ClInclude Include="Audio\OpenALSound.h" />
+    <ClInclude Include="Audio\Sound.h" />
+    <ClInclude Include="Audio\Stream.h" />
+    <ClInclude Include="Audio\VorbisAudioStream.h" />
+    <ClInclude Include="Audio\WaveAudioStream.h" />
+    <ClInclude Include="Config\Config.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="EventSystem\CharEvent.h" />
+    <ClInclude Include="EventSystem\Receiver.h" />
+    <ClInclude Include="EventSystem\Sender.h" />
+    <ClInclude Include="EventSystem\KeyEvent.h" />
+    <ClInclude Include="EventSystem\MouseEvent.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Gui\Button.h" />
+    <ClInclude Include="Gui\Container.h" />
+    <ClInclude Include="Gui\Gui.h" />
+    <ClInclude Include="Gui\Label.h" />
+    <ClInclude Include="Gui\MainContainer.h" />
+    <ClInclude Include="Gui\MsgEvent.h" />
+    <ClInclude Include="Gui\Object.h" />
+    <ClInclude Include="Gui\Window.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="Log\StandardLog.h" />
+    <ClInclude Include="Log\WindowsLog.h" />
+    <ClInclude Include="Network\Http.h" />
+    <ClInclude Include="Network\ListenSocket.h" />
+    <ClInclude Include="Network\ClientSocket.h" />
+    <ClInclude Include="Network\WindowsClientSocket.h" />
+    <ClInclude Include="Render\Camera.h" />
+    <ClInclude Include="Render\Color.h" />
+    <ClInclude Include="Render\Font.h" />
+    <ClInclude Include="Render\FreetypeFont.h" />
+    <ClInclude Include="Render\Image.h" />
+    <ClInclude Include="Render\LinuxOpenGLRender.h" />
+    <ClInclude Include="Render\OpenGLHeader.h" />
+    <ClInclude Include="Render\OpenGLRender.h" />
+    <ClInclude Include="Render\OpenGLTexture.h" />
+    <ClInclude Include="Render\Render.h" />
+    <ClInclude Include="Render\Texture.h" />
+    <ClInclude Include="Render\WindowsOpenGLRender.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="System\LinuxSystem.h" />
+    <ClInclude Include="System\WindowsHeader.h" />
+    <ClInclude Include="System\WindowsSystem.h" />
+    <ClInclude Include="System\WindowsWndProc.h" />
+    <ClInclude Include="Thread\LinuxThread.h" />
+    <ClInclude Include="Thread\Thread.h" />
+    <ClInclude Include="Thread\WindowsThread.h" />
+    <ClInclude Include="World\WorldNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\Framework.vcxproj">
+      <Project>{ea07dbd0-c881-4c3d-8b44-1119b98b2ded}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53672353-F85C-4167-999A-3730EFAB960C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\Libraries\$(Configuration)\</OutDir>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <TargetName>$(ProjectName)</TargetName>
+    <IntDir>$(SolutionDir)..\Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetExt>.lib</TargetExt>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\Libraries\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)\;$(SolutionDir)\Framework\;$(SolutionDir)\..\External\freetype2\include;$(SolutionDir)\..\External\libjpeg\;$(SolutionDir)\..\External\libogg\include\;$(SolutionDir)\..\External\libpng\;$(SolutionDir)\..\External\libvorbis\include\;$(SolutionDir)\..\External\OpenAL;$(SolutionDir)\..\External\OpenGL;$(SolutionDir)\..\External\zlib\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <EnablePREfast>false</EnablePREfast>
+      <OmitFramePointers>false</OmitFramePointers>
+      <ProgramDataBaseFileName>$(OutDir)\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <StringPooling>
+      </StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetype2.lib;libogg.lib;libpng.lib;libjpeg.lib;libvorbis.lib;libvorbisfile.lib;OpenAL32.lib;OpenGL32.lib;Ws2_32.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\..\Libraries\;$(SolutionDir)\..\Libraries\$(Configuration)\</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)\;$(SolutionDir)\Framework\;$(SolutionDir)\..\External\freetype2\include;$(SolutionDir)\..\External\libjpeg\;$(SolutionDir)\..\External\libogg\include\;$(SolutionDir)\..\External\libpng\;$(SolutionDir)\..\External\libvorbis\include\;$(SolutionDir)\..\External\OpenAL;$(SolutionDir)\..\External\OpenGL;$(SolutionDir)\..\External\zlib\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <ExceptionHandling>false</ExceptionHandling>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <StringPooling>true</StringPooling>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(OutDir)\$(ProjectName).pdb</ProgramDataBaseFileName>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>freetype2.lib;libogg.lib;libpng.lib;libjpeg.lib;libvorbis.lib;libvorbisfile.lib;OpenAL32.lib;OpenGL32.lib;Ws2_32.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\..\Libraries\;$(SolutionDir)\..\Libraries\$(Configuration)\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

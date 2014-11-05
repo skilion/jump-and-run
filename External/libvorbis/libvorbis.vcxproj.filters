@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\vorbis\codec.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vorbis\vorbisenc.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\backends.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\bitrate.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\codebook.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\codec_internal.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\envelope.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\highlevel.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lookup.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lookup_data.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lpc.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lsp.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\masking.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\mdct.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\misc.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\os.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\psy.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\registry.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\scales.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\smallft.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\window.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\analysis.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\barkmel.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\bitrate.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\block.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\codebook.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\envelope.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\floor0.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\floor1.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\info.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\lookup.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\lpc.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\lsp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\mapping0.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\mdct.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\psy.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\registry.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\res0.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\sharedbook.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\smallft.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\synthesis.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\vorbisenc.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\window.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcxproj", "{53672353-F85C-4167-999A-3730EFAB960C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framework", "Framework\Framework.vcxproj", "{EA07DBD0-C881-4C3D-8B44-1119B98B2DED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Jump&Run", "Jump&Run\Jump&Run.vcxproj", "{B5B567DD-B2F4-4016-B7F8-EAFDE375DDC2}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Source.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53672353-F85C-4167-999A-3730EFAB960C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53672353-F85C-4167-999A-3730EFAB960C}.Debug|Win32.Build.0 = Debug|Win32
+		{53672353-F85C-4167-999A-3730EFAB960C}.Release|Win32.ActiveCfg = Release|Win32
+		{53672353-F85C-4167-999A-3730EFAB960C}.Release|Win32.Build.0 = Release|Win32
+		{EA07DBD0-C881-4C3D-8B44-1119B98B2DED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA07DBD0-C881-4C3D-8B44-1119B98B2DED}.Debug|Win32.Build.0 = Debug|Win32
+		{EA07DBD0-C881-4C3D-8B44-1119B98B2DED}.Release|Win32.ActiveCfg = Release|Win32
+		{EA07DBD0-C881-4C3D-8B44-1119B98B2DED}.Release|Win32.Build.0 = Release|Win32
+		{B5B567DD-B2F4-4016-B7F8-EAFDE375DDC2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5B567DD-B2F4-4016-B7F8-EAFDE375DDC2}.Debug|Win32.Build.0 = Debug|Win32
+		{B5B567DD-B2F4-4016-B7F8-EAFDE375DDC2}.Release|Win32.ActiveCfg = Release|Win32
+		{B5B567DD-B2F4-4016-B7F8-EAFDE375DDC2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

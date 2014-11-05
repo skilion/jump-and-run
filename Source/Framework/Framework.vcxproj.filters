@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header files\Math">
+      <UniqueIdentifier>{1d67928d-4271-41f2-a1a3-3622dad224c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Containers">
+      <UniqueIdentifier>{9faddd31-bcd8-4273-b852-7563b74d85f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\File">
+      <UniqueIdentifier>{0543e313-59e8-477a-a190-5f1ebbb72411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source files\Math">
+      <UniqueIdentifier>{20e86c51-8ed7-4a9b-aa7f-52a0e5ea4348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\File">
+      <UniqueIdentifier>{3801c2c5-7f6a-4782-b2e9-8601a34c4e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Containers">
+      <UniqueIdentifier>{a3e454a8-7782-4b85-b184-e2846f011c7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algorithms.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Aabox.h">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Angles.h">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.h">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Plane.h">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Ray.h">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Sphere.h">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\ViewingFrustum.h">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\List.h">
+      <Filter>Header files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Map.h">
+      <Filter>Header files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Stack.h">
+      <Filter>Header files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="myString.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Array.h">
+      <Filter>Header files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="File\File.h">
+      <Filter>Header files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\StandardFile.h">
+      <Filter>Header files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\WindowsFile.h">
+      <Filter>Header files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Rect.h">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\RBTree.h">
+      <Filter>Header files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Line.h">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Octree.h">
+      <Filter>Header files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector.h">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Aabox.cpp">
+      <Filter>Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Angles.cpp">
+      <Filter>Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Math.cpp">
+      <Filter>Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix.cpp">
+      <Filter>Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Plane.cpp">
+      <Filter>Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Ray.cpp">
+      <Filter>Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Sphere.cpp">
+      <Filter>Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\ViewingFrustum.cpp">
+      <Filter>Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="File\File.cpp">
+      <Filter>Source files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\StandardFile.cpp">
+      <Filter>Source files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\WindowsFile.cpp">
+      <Filter>Source files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Rect.cpp">
+      <Filter>Source files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Containers\Array.cpp">
+      <Filter>Source files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Line.cpp">
+      <Filter>Source files\Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
