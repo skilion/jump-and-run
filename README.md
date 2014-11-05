@@ -16,13 +16,13 @@ Old game made in high school
 ## Music used:
 
 * from the album "Audionautix: Tech, Urban, Dance" by Jason Shaw
-  * "The Big House" from the album 
+  * "The Big House"
 
 * from the album "Straw Fields" by Rolemusic
-  * "Yellow Dust",
+  * "Yellow Dust"
   * "Leafless Quince Tree"
 
 * from the album "Utter Mess" by Edward Shallow
-  * "You've Only Yourself To Blame For Your Tragic Loss In Faith",
-  * "We Need Cranes, Not Skyhooks",
+  * "You've Only Yourself To Blame For Your Tragic Loss In Faith"
+  * "We Need Cranes, Not Skyhooks"
   * "Inside (Reprise)"
