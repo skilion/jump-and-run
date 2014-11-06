@@ -207,6 +207,14 @@ void WindowsSystem::pauseTillExit()
 }
 
 //=============================================================================
+// Waits until the time-out interval elapses
+//=============================================================================
+void WindowsSystem::sleep(unsigned milliseconds)
+{
+	Sleep(milliseconds);
+}
+
+//=============================================================================
 // Sets the main window
 //=============================================================================
 void WindowsSystem::setMainWindow(HWND hWnd)

@@ -20,14 +20,13 @@ namespace myengine {
 		virtual unsigned	getFreeSpaceMegaBytes();
 		virtual unsigned	getMilliseconds();
 		virtual void		getDesktopInfo(int &width, int &height, int &colors);
-
 		virtual void		setClipboardText(const char *text);
 		virtual void		setCursor(Cursor cursor);
 		virtual void		setMouseLocked(bool mouseLocked);
-
 		virtual void		messageBox(const char *text, const char *caption);
 		virtual void		handleEvents();
 		virtual void		pauseTillExit();
+		virtual void		sleep(unsigned milliseconds);
 
 		void				setMainWindow(HWND hWnd);
 

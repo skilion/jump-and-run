@@ -9,4 +9,4 @@ add_executable(JumpAndRun ${Sources})
 
 target_link_libraries(JumpAndRun engine framework)
 target_link_libraries(JumpAndRun freetype2 jpeg png vorbis ogg zlib)
-target_link_libraries(JumpAndRun GL GLU openal X11 Xxf86vm pthread)
+target_link_libraries(JumpAndRun GL GLU openal X11 Xxf86vm)

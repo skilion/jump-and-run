@@ -43,7 +43,7 @@ GameLocal::GameLocal()
 {
 	levelMusic = 0;
 
-	smallFont = medFont = bigFont = nullptr;
+	smallFont = medFont = nullptr;
 	for(unsigned i = 0; i < TEX_LAST; i++) textures[i] = nullptr;
 
 	menuBgColor = 0;
@@ -72,8 +72,6 @@ bool GameLocal::initialize()
 	if(!smallFont) return false;
 	medFont = Font::create("fonts/pixelperfect.ttf", 32, true);
 	if(!medFont) return false;
-	bigFont = Font::create("fonts/gwibble.ttf", 40, true);
-	if(!bigFont) return false;
 
 	//Load textures
 	textures[TEX_WORLD_TILES] = Texture::create(Image("images/base.png"));
@@ -122,7 +120,6 @@ void GameLocal::shutdown()
 {
 	delete smallFont;
 	delete medFont;
-	delete bigFont;
 	for(unsigned i = 0; i < TEX_LAST; i++) delete textures[i];
 	for(unsigned i = 0; i < SOUND_LAST; i++) audio->unloadSound(sounds[i]);
 

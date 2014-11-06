@@ -1,5 +1,6 @@
 #include <ctime>
 #include <cstdio>
+#include <unistd.h>
 #include <sys/time.h>
 
 #include <X11/Xlib.h>
@@ -159,6 +160,14 @@ void LinuxSystem::pauseTillExit()
 }
 
 //=============================================================================
+// Waits until the time-out interval elapses
+//=============================================================================
+void LinuxSystem::sleep(unsigned milliseconds)
+{
+	usleep(milliseconds * 1000); //nanosleep ?
+}
+
+//=============================================================================
 // Handles X11 events
 //=============================================================================
 void LinuxSystem::handleEvents()
@@ -190,7 +199,6 @@ void LinuxSystem::handleEvents()
             break;
 
 		case FocusIn:
-			log->print("FocusIn");
 			mouseResetted = false;
 			engine->setPause(false);
 			/*if(render->isFullscreen()) {
@@ -199,7 +207,6 @@ void LinuxSystem::handleEvents()
 			break;
 
         case FocusOut:
-        	log->print("FocusOut");
             engine->setPause(true);
 
             if(render->isFullscreen()) {

@@ -30,6 +30,7 @@ namespace myengine {
 		virtual void		messageBox(const char *text, const char *caption);
 		virtual void		handleEvents();
 		virtual void		pauseTillExit();
+		virtual void		sleep(unsigned milliseconds);
 
 		void		        setWindow(Display *display, Window window);
 		void				setFullscreen(bool fullscreen); //public for test

@@ -8,7 +8,6 @@
 #include "Config/Config.h"
 #include "Gui/Gui.h"
 #include "Render/Render.h"
-#include "Thread/Thread.h"
 
 #include "memdbg.h"
 
@@ -123,7 +122,7 @@ int Engine::run()
 				}*/
 			}
 
-			Thread::sleep(5);
+			system->sleep(5);
 		}
 
 		log->print("*** Game shutdown ***");

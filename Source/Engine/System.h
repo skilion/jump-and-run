@@ -34,6 +34,8 @@ namespace myengine {
 		virtual void		messageBox(const char *text, const char *caption) = 0;
 		virtual void		handleEvents() = 0;
 		virtual void		pauseTillExit() = 0;
+		
+		virtual void		sleep(unsigned milliseconds) = 0;
 	};
 
 	extern System	*system;
