@@ -3,10 +3,7 @@
 #include <cstdarg>
 
 #include "Log.h"
-
-//#include "global.h"
 #include "myString.h"
-
 #include "memdbg.h"
 
 using namespace myengine;

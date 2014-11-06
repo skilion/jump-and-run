@@ -25,7 +25,7 @@ namespace myengine {
 
 		static Log		*create();
 
-		virtual void	print(const char *string) = 0;
+		virtual void	print(const char *string);
 		void			printf(const char *format, ...);
 
 

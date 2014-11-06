@@ -33,12 +33,6 @@
     <Filter Include="Source files\EventSystem">
       <UniqueIdentifier>{d747a3f3-7455-445d-889d-368a977e13dc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header files\Thread">
-      <UniqueIdentifier>{0098e478-ff76-413e-908d-6f98fe1b9641}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source files\Thread">
-      <UniqueIdentifier>{cc442764-c9e9-421b-b91b-29e8da89e823}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header files\Log">
       <UniqueIdentifier>{beed67e9-368b-4dfc-90f9-73fbdcb50090}</UniqueIdentifier>
     </Filter>
@@ -56,12 +50,6 @@
     </Filter>
     <Filter Include="Source files\Audio">
       <UniqueIdentifier>{4feca4cf-7594-47ed-9376-73349dad7b9c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header files\Network">
-      <UniqueIdentifier>{dfb2169b-2b57-4587-9840-aff1de846a5b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source files\Network">
-      <UniqueIdentifier>{263f82e7-7dde-4e9a-b8a0-efdf88b10d6a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Gui">
       <UniqueIdentifier>{ca97a6a0-98d1-455a-ab65-cd29fa4a3b91}</UniqueIdentifier>
@@ -125,15 +113,6 @@
     <ClCompile Include="EventSystem\MouseEvent.cpp">
       <Filter>Source files\EventSystem</Filter>
     </ClCompile>
-    <ClCompile Include="Thread\LinuxThread.cpp">
-      <Filter>Source files\Thread</Filter>
-    </ClCompile>
-    <ClCompile Include="Thread\Thread.cpp">
-      <Filter>Source files\Thread</Filter>
-    </ClCompile>
-    <ClCompile Include="Thread\WindowsThread.cpp">
-      <Filter>Source files\Thread</Filter>
-    </ClCompile>
     <ClCompile Include="Log\WindowsLog.cpp">
       <Filter>Source files\Log</Filter>
     </ClCompile>
@@ -172,15 +151,6 @@
     </ClCompile>
     <ClCompile Include="Audio\WaveAudioStream.cpp">
       <Filter>Source files\Audio</Filter>
-    </ClCompile>
-    <ClCompile Include="Network\ClientSocket.cpp">
-      <Filter>Source files\Network</Filter>
-    </ClCompile>
-    <ClCompile Include="Network\WindowsClientSocket.cpp">
-      <Filter>Source files\Network</Filter>
-    </ClCompile>
-    <ClCompile Include="Network\Http.cpp">
-      <Filter>Source files\Network</Filter>
     </ClCompile>
     <ClCompile Include="Audio.cpp">
       <Filter>Source files</Filter>
@@ -280,15 +250,6 @@
     <ClInclude Include="EventSystem\MouseEvent.h">
       <Filter>Header files\EventSystem</Filter>
     </ClInclude>
-    <ClInclude Include="Thread\LinuxThread.h">
-      <Filter>Header files\Thread</Filter>
-    </ClInclude>
-    <ClInclude Include="Thread\Thread.h">
-      <Filter>Header files\Thread</Filter>
-    </ClInclude>
-    <ClInclude Include="Thread\WindowsThread.h">
-      <Filter>Header files\Thread</Filter>
-    </ClInclude>
     <ClInclude Include="Log\WindowsLog.h">
       <Filter>Header files\Log</Filter>
     </ClInclude>
@@ -333,18 +294,6 @@
     </ClInclude>
     <ClInclude Include="EventSystem\Sender.h">
       <Filter>Header files\EventSystem</Filter>
-    </ClInclude>
-    <ClInclude Include="Network\ListenSocket.h">
-      <Filter>Header files\Network</Filter>
-    </ClInclude>
-    <ClInclude Include="Network\ClientSocket.h">
-      <Filter>Header files\Network</Filter>
-    </ClInclude>
-    <ClInclude Include="Network\WindowsClientSocket.h">
-      <Filter>Header files\Network</Filter>
-    </ClInclude>
-    <ClInclude Include="Network\Http.h">
-      <Filter>Header files\Network</Filter>
     </ClInclude>
     <ClInclude Include="Render\FreetypeFont.h">
       <Filter>Header files\Render</Filter>

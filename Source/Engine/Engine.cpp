@@ -40,7 +40,11 @@ Game		*myengine::game		= nullptr;
 bool Engine::initialize()
 {
 	system		= System::create();
+#ifdef DEBUG
 	log			= Log::create();
+#else
+	log = new Log();
+#endif
 	render		= Render::create();
 	audio		= Audio::create();
 	//guiStyle	= new Gui;

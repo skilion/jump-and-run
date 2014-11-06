@@ -43,9 +43,6 @@
     </ClCompile>
     <ClCompile Include="Log\WindowsLog.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Network\ClientSocket.cpp" />
-    <ClCompile Include="Network\Http.cpp" />
-    <ClCompile Include="Network\WindowsClientSocket.cpp" />
     <ClCompile Include="Render\Camera.cpp" />
     <ClCompile Include="Render\Color.cpp" />
     <ClCompile Include="Render\Font.cpp" />
@@ -67,12 +64,6 @@
     </ClCompile>
     <ClCompile Include="System\WindowsSystem.cpp" />
     <ClCompile Include="System\WindowsWndProc.cpp" />
-    <ClCompile Include="Thread\LinuxThread.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Thread\Thread.cpp" />
-    <ClCompile Include="Thread\WindowsThread.cpp" />
     <ClCompile Include="World\WorldNode.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -103,10 +94,6 @@
     <ClInclude Include="Log.h" />
     <ClInclude Include="Log\StandardLog.h" />
     <ClInclude Include="Log\WindowsLog.h" />
-    <ClInclude Include="Network\Http.h" />
-    <ClInclude Include="Network\ListenSocket.h" />
-    <ClInclude Include="Network\ClientSocket.h" />
-    <ClInclude Include="Network\WindowsClientSocket.h" />
     <ClInclude Include="Render\Camera.h" />
     <ClInclude Include="Render\Color.h" />
     <ClInclude Include="Render\Font.h" />
@@ -124,9 +111,6 @@
     <ClInclude Include="System\WindowsHeader.h" />
     <ClInclude Include="System\WindowsSystem.h" />
     <ClInclude Include="System\WindowsWndProc.h" />
-    <ClInclude Include="Thread\LinuxThread.h" />
-    <ClInclude Include="Thread\Thread.h" />
-    <ClInclude Include="Thread\WindowsThread.h" />
     <ClInclude Include="World\WorldNode.h" />
   </ItemGroup>
   <ItemGroup>
@@ -187,7 +171,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)\;$(SolutionDir)\Framework\;$(SolutionDir)\..\External\freetype2\include;$(SolutionDir)\..\External\libjpeg\;$(SolutionDir)\..\External\libogg\include\;$(SolutionDir)\..\External\libpng\;$(SolutionDir)\..\External\libvorbis\include\;$(SolutionDir)\..\External\OpenAL;$(SolutionDir)\..\External\OpenGL;$(SolutionDir)\..\External\zlib\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)Framework\;$(SolutionDir)..\External\freetype2\include;$(SolutionDir)..\External\libjpeg\;$(SolutionDir)..\External\libogg\include\;$(SolutionDir)..\External\libpng\;$(SolutionDir)..\External\libvorbis\include\;$(SolutionDir)..\External\OpenAL;$(SolutionDir)..\External\OpenGL;$(SolutionDir)..\External\zlib\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ExceptionHandling>Sync</ExceptionHandling>
       <EnablePREfast>false</EnablePREfast>
       <OmitFramePointers>false</OmitFramePointers>
@@ -218,7 +202,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)\;$(SolutionDir)\Framework\;$(SolutionDir)\..\External\freetype2\include;$(SolutionDir)\..\External\libjpeg\;$(SolutionDir)\..\External\libogg\include\;$(SolutionDir)\..\External\libpng\;$(SolutionDir)\..\External\libvorbis\include\;$(SolutionDir)\..\External\OpenAL;$(SolutionDir)\..\External\OpenGL;$(SolutionDir)\..\External\zlib\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)Framework\;$(SolutionDir)..\External\freetype2\include;$(SolutionDir)..\External\libjpeg\;$(SolutionDir)..\External\libogg\include\;$(SolutionDir)..\External\libpng\;$(SolutionDir)..\External\libvorbis\include\;$(SolutionDir)..\External\OpenAL;$(SolutionDir)..\External\OpenGL;$(SolutionDir)..\External\zlib\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <OmitFramePointers>true</OmitFramePointers>
       <ExceptionHandling>false</ExceptionHandling>
@@ -226,7 +210,7 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <StringPooling>true</StringPooling>
       <StructMemberAlignment>4Bytes</StructMemberAlignment>
-      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <ProgramDataBaseFileName>$(OutDir)\$(ProjectName).pdb</ProgramDataBaseFileName>
       <WholeProgramOptimization>true</WholeProgramOptimization>
