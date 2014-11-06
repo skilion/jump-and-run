@@ -3,6 +3,8 @@ Jump & Run
 
 Old game made in high school
 
+##### NOTE: this game requires [OpenAL](http://www.openal.org/)
+
 ## Compilation on Windows
 
 1. Build the Visual Studio solution in the External directory
